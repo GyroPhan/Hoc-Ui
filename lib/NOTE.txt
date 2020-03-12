@@ -1,0 +1,37 @@
+Card: học đc thuộc tính card
+dùng sizeBox = Container() để đóng hôpj dễ làm đẹp hơn
+
+SnackBar: để hiện những thông báo nhỏ không quan trọng
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+=> tạo 1 key cho 1 đối tượng nào đó
+
+
+List<Container> => là chứa 1 list các container, 1 container 1 chổ
+
+List<Stack> => chứa 2 container tại 1 ô đ
+
+
+gridview   tạo 1 list các danh sách hình anh
+
+
+final tabController = DefaultTabController(
+=> tạo ra nhiều tab để dễ thao tác
+
+
+HỎI NGHĨA LẤY ẢNH TỪ URL
+
+
+
+ var items = List<String>.generate(20,// => 20 doi tuong
+      (i)=> "Items $i"); //generate la ham tu sinh doi tuong trong listview
+
+
+       itemBuilder: (context, index){
+                  //context chi class nao chua listview
+                  //index chi tung phan tu trong list view
+
+
+ câu hỏi ở Ìnfinity.dảrt
+
+
+ final screenSize = MediaQuery.of(context).size; // lấy saize màn hình đang xài
